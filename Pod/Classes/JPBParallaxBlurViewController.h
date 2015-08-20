@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import <BaseTableViewController.h>
+
 @protocol JPBParallaxBlurInteractionsDelegate;
 
-@interface JPBParallaxBlurViewController : UIViewController
+@interface JPBParallaxBlurViewController : BaseTableViewController
 
 - (void)setHeaderImage:(UIImage*)headerImage;
 - (void)addHeaderOverlayView:(UIView*)overlay;
